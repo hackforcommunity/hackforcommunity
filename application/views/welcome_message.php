@@ -52,7 +52,7 @@
           <div class="col-md-6">
             <h2 style="color: 6B377F;">We'd love to hear from you!</h2>
             <p contenteditable="true">If you'd like to learn to more about H4C or if you'd like Hack for Community
-              to host an event for you, leave your information below and we will get
+              to host an event for you, send us an email and we will get
               back to you! <br/> <br/>Email: info@hackforcommunity.org</p>
             <!-- <form role="form" action="welcome/contact" method="post"> 
               <div class="form-group">
