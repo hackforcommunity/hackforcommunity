@@ -53,8 +53,8 @@
             <h2 style="color: 6B377F;">We'd love to hear from you!</h2>
             <p contenteditable="true">If you'd like to learn to more about H4C or if you'd like Hack for Community
               to host an event for you, leave your information below and we will get
-              back to you!</p>
-            <form role="form" action="welcome/contact" method="post"> 
+              back to you! <br/> <br/>Email: info@hackforcommunity.org</p>
+            <!-- <form role="form" action="welcome/contact" method="post"> 
               <div class="form-group">
                 <label class="control-label" for="exampleInputEmail1" >Name</label>
                 <input class="form-control" id="exampleInputEmail1" placeholder="Enter name"
@@ -71,7 +71,7 @@
               </div>
               <div class="g-recaptcha pull-right" data-sitekey="6LfwPCkUAAAAAOsCRI15_3V7D7rzIo4bfLPaOBe7"></div>
               <input  type="submit" class="btn btn-default btn-lg" style="background-color: 6B377F; color:FFF" value="Submit">
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
