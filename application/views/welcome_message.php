@@ -7,7 +7,7 @@
 	</div>
   </div>
 </div> -->
-<div class="section" style="height:500px; border: solid 1px black; background-image: url('images/hack4community.jpg'); background-position:center;">
+<div class="section" style="height:500px; border: solid 1px black; background-image: url('images/DSC_5160.JPG'); background-position:center;">
   <div class="container" style="padding-top:100px">
     <div class="row" style="border: solid 1px red" >
       <div class="col-md-4" style="border: solid 1px red; background-color: white; padding:50px 50px 50px 50px;">
