@@ -1,3 +1,42 @@
-.bgImage {
-	
+body{
+	//background-color: #e1e1e1;
+}
+
+.section1 {
+	height: 504px;
+	border: solid 2px black;
+}
+
+.section1 .container {
+	padding-top: 100px;
+	height: 500px;
+	background-image: url('../images/DSC_5160.JPG');
+	background-position: center;
+	background-size: cover;
+	border: solid 2px deeppink;
+}
+
+.section1 .row {
+	border: solid 2px red;
+}
+
+.section1 .col-md-4 {
+	border: solid 2px green;
+	background-color: white;
+	padding: 50px 50px 50px 50px;
+}
+
+.section1 .col-md-12{
+	border: solid 2px green;
+}
+
+.section1 .col-md-6 {
+	border: solid 2px blue
+}
+
+.section1 .btn-outline-primary{
+	border: solid 1px #4678b3;
+}
+.section1 .btn-outline-primary:hover{
+	border: solid 1px #000;
 }
