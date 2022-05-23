@@ -1,7 +1,3 @@
-body{
-	//background-color: #e1e1e1;
-}
-
 .section1 {
 	height: 504px;
 	border: solid 2px black;
@@ -26,7 +22,7 @@ body{
 	padding: 50px 50px 50px 50px;
 }
 
-.section1 .col-md-12{
+.section1 .col-md-12 {
 	border: solid 2px green;
 }
 
@@ -34,9 +30,34 @@ body{
 	border: solid 2px blue
 }
 
-.section1 .btn-outline-primary{
+.section1 .btn-outline-primary {
 	border: solid 1px #4678b3;
 }
-.section1 .btn-outline-primary:hover{
+
+.section1 .btn-outline-primary:hover {
 	border: solid 1px #000;
+}
+
+/* Footer CSS */
+footer {
+	color: #FFF;
+	border: solid 2px deeppink;
+	background-color: #7363ac;
+}
+
+footer a {
+	color: #FFF;
+	border: solid 2px green;
+}
+
+footer a:hover {
+	color: #000;
+}
+
+footer .col-sm-6 {
+	border: solid 1px red;
+}
+
+footer .row {
+	border: solid 1px red;
 }
