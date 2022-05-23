@@ -7,22 +7,19 @@
 	</div>
   </div>
 </div> -->
-<div class="section" style="border: solid 1px black">
-  <div class="container">
+<div class="section" style="height:500px; border: solid 1px black; background-image: url('images/hack4community.jpg'); background-position:center;">
+  <div class="container" style="padding-top:100px">
     <div class="row" style="border: solid 1px red" >
-      <div class="col-md-6" style="border: solid 1px red">
+      <div class="col-md-4" style="border: solid 1px red; background-color: white; padding:50px 50px 50px 50px;">
         <h1>HACK FOR COMMUNITY</h1>
         <p>If we can empower them with technology they can use it positively to change their communities.</p>
         <a href="#" class="btn btn-primary outline">Our Mission</a>
-      </div>
-      <div class="col-md-6" style="border: solid 1px blue">
-
       </div>
     </div>
   </div>
 </div>
 
-<div class="section" style="border: solid 1px black">
+<div class="section" style="height:500px; border: solid 1px black; background-image: url('images/hack4community.jpg'); background-position:center;">
   <div class="container">
     <div class="row" style="border: solid 1px red">
       <div class="col-md-12" style="border: solid 1px red">
@@ -36,7 +33,7 @@
   </div>
 </div>
 
-<div class="section" style="border: solid 1px black">
+<div class="section" style="height:500px; border: solid 1px black; background-image: url('images/hack4community.jpg'); background-position:center;">
   <div class="container">
     <div class="row" style="border: solid 1px red">
       <div class="col-md-12" style="border: solid 1px red">
@@ -63,7 +60,7 @@
   </div>
 </div>
 
-<div class="section" style="border: solid 1px black">
+<div class="section" style="height:500px; border: solid 1px black; background-image: url('images/hack4community.jpg'); background-position:center;">
   <div class="container">
     <div class="row" style="border: solid 1px red">
       <div class="col-md-12" style="border: solid 1px red">
