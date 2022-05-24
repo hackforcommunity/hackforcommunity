@@ -19,12 +19,13 @@
   </div>
 </div>
 
-<div class="section ">
+<div class="section section2">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-4">
       <h1>HACKATHON EVENTS</h1>
-      <a href="#" class="btn btn-primary">LEARN MORE</a>
+      <p>We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all shapes and sizes.</p>
+      <a href="#" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
       </div>
       <div class="col-md-6">
 

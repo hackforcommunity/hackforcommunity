@@ -1,6 +1,13 @@
+/* CSS Vars */
+:root {
+  --main-bg-color-orange: #f7941d;
+  --outline-pink: deeppink;
+  --outline-black: #000;
+}
+/* section 1 */
 .section1 {
 	height: 504px;
-	border: solid 2px black;
+	border: solid 2px var(--outline-black)
 }
 
 .section1 .container {
@@ -9,7 +16,7 @@
 	background-image: url('../images/DSC_5160.JPG');
 	background-position: center;
 	background-size: cover;
-	border: solid 2px deeppink;
+	border: solid 2px var(--outline-pink)
 }
 
 .section1 .row {
@@ -35,13 +42,56 @@
 }
 
 .section1 .btn-outline-primary:hover {
-	border: solid 1px #000;
+	border: solid 1px var(--outline-black);
+}
+
+/* section 2 */
+.section2 {
+	height: 504px;
+	color: #FFF;
+	border: solid 2px var(--outline-black);
+}
+
+.section2 .container {
+	padding-top: 100px;
+	height: 500px;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+	background-color: var(--main-bg-color-orange);
+	border: solid 2px var(--outline-pink);
+}
+
+.section2 .row {
+	border: solid 2px red;
+}
+
+.section2 .col-md-4 {
+	border: solid 2px green;
+	background-color: var(--main-bg-color-orange);
+	padding: 50px 50px 50px 50px;
+}
+
+.section2 .col-md-12 {
+	border: solid 2px green;
+}
+
+.section2 .col-md-6 {
+	border: solid 2px blue
+}
+
+.section2 .btn-outline-primary {
+	border: solid 1px #4678b3;
+}
+
+.section2 .btn-outline-primary:hover {
+	border: solid 1px var(--outline-black);
 }
 
 /* Footer CSS */
 footer {
 	color: #FFF;
-	border: solid 2px deeppink;
+	border: solid 2px var(--outline-pink);
 	background-color: #7363ac;
 }
 
@@ -51,7 +101,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #000;
+	color: var(--outline-black);
 }
 
 footer .col-sm-6 {
