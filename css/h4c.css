@@ -1,8 +1,11 @@
 /* CSS Vars */
 :root {
   --main-bg-color-orange: #f7941d;
+  --main-bg-color-green: green;
   --outline-pink: deeppink;
   --outline-black: #000;
+  --outline-white: #fff;
+  --hover-blue-button: #4678b3;
 }
 /* section 1 */
 .section1 {
@@ -24,13 +27,13 @@
 }
 
 .section1 .col-md-4 {
-	border: solid 2px green;
+	border: solid 2px var(--main-bg-color-green);
 	background-color: white;
 	padding: 50px 50px 50px 50px;
 }
 
 .section1 .col-md-12 {
-	border: solid 2px green;
+	border: solid 2px var(--main-bg-color-green);
 }
 
 .section1 .col-md-6 {
@@ -67,13 +70,13 @@
 }
 
 .section2 .col-md-4 {
-	border: solid 2px green;
+	border: solid 2px var(--main-bg-color-green);
 	background-color: var(--main-bg-color-orange);
 	padding: 50px 50px 50px 50px;
 }
 
 .section2 .col-md-12 {
-	border: solid 2px green;
+	border: solid 2px var(--main-bg-color-green);
 }
 
 .section2 .col-md-6 {
@@ -81,11 +84,58 @@
 }
 
 .section2 .btn-outline-primary {
-	border: solid 1px #4678b3;
+	border: solid 1px var(--outline-white);
+	color: var(--outline-white);
 }
 
 .section2 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
+	color: var(--outline-black);
+}
+
+/* section 3 */
+.section3 {
+	height: 504px;
+	color: #FFF;
+	border: solid 2px var(--outline-black);
+}
+
+.section3 .container {
+	padding-top: 100px;
+	height: 500px;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+	background-color: var(--main-bg-color-green);
+	border: solid 2px var(--outline-pink);
+}
+
+.section3 .row {
+	border: solid 2px red;
+}
+
+.section3 .col-md-4 {
+	border: solid 2px var(--main-bg-color-green);
+	background-color: var(--main-bg-color-green);
+	padding: 50px 50px 50px 50px;
+}
+
+.section3 .col-md-12 {
+	border: solid 2px var(--main-bg-color-green);
+}
+
+.section3 .col-md-6 {
+	border: solid 2px blue
+}
+
+.section3 .btn-outline-primary {
+	border: solid 1px var(--outline-white);
+	color: var(--outline-white);
+}
+
+.section3 .btn-outline-primary:hover {
+	border: solid 1px var(--outline-black);
+	color: var(--outline-black);
 }
 
 /* Footer CSS */
@@ -97,7 +147,7 @@ footer {
 
 footer a {
 	color: #FFF;
-	border: solid 2px green;
+	border: solid 2px var(--main-bg-color-green);
 }
 
 footer a:hover {

@@ -34,15 +34,16 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section section3">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-      <h1>TECHNOLOGY EDUCATION</h1>
-      <a href="#" class="btn btn-primary">LEARN MORE</a>
-      </div>
       <div class="col-md-6">
 
+      </div>
+      <div class="col-md-4">
+        <h1>TECHNOLOGY EDUCATION</h1>
+        <p>Technology education to support indivudals, small businesses, churches, and nonprofits.</p>
+        <a href="#" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
       </div>
     </div>
   </div>
