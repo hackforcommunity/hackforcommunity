@@ -12,7 +12,7 @@
     <div class="row">
       <div class="col-md-4">
         <h1>HACK FOR COMMUNITY</h1>
-        <p>If we can empower them with technology they can use it positively to change their communities.</p>
+        <p>If we can empower them with technology they can use it positively to change their communities.</p><br/>
         <a href="#" class="btn btn-block btn-outline-primary pull-right">Our Mission</a>
       </div>
     </div>
@@ -22,13 +22,14 @@
 <div class="section section2">
   <div class="container">
     <div class="row">
+      <div class="col-md-1">
+      </div>
       <div class="col-md-4">
       <h1>HACKATHON EVENTS</h1>
-      <p>We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all shapes and sizes.</p>
+      <p>We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all shapes and sizes.</p><br/>
       <a href="#" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
       </div>
       <div class="col-md-6">
-
       </div>
     </div>
   </div>
@@ -37,13 +38,17 @@
 <div class="section section3">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-7">
 
       </div>
       <div class="col-md-4">
         <h1>TECHNOLOGY EDUCATION</h1>
-        <p>Technology education to support indivudals, small businesses, churches, and nonprofits.</p>
+        <p>Technology education to support individuals, small businesses, churches, and nonprofits.</p>
+        <br/>
         <a href="#" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
+      </div>
+      <div class="col-md-1">
+      
       </div>
     </div>
   </div>
@@ -65,7 +70,7 @@
     <div class="row">
       <div class="col-md-6">
       <!-- <h1>"It's not that we use, technology we live technology."</h1> -->
-      <blockquote>"It's not that we use, technology we live technology."</blockquote>
+      <blockquote>"It's not that we use, technology we live technology."</blockquote><br/>
       <a href="#" class="btn btn-block btn-outline-primary pull-right">MEET OUR BOARD</a>
       </div>
       <div class="col-md-6">

@@ -1,7 +1,7 @@
 /* CSS Vars */
 :root {
 	--main-bg-color-orange: #f7941d;
-	--main-bg-color-green: green;
+	--main-bg-color-green: #abd373;
 	--outline-pink: deeppink;
 	--outline-black: #333;
 	--outline-white: #fff;
@@ -62,9 +62,10 @@ color: var(--hover-blue-button);
 .section2 .container {
 	padding-top: 100px;
 	height: 500px;
-	background-image: url();
-	background-position: center;
-	background-size: cover;
+	background-image: url('../images/OrangeGirls.jpeg');
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-color: var(--main-bg-color-orange);
 	border: solid 2px var(--outline-pink);
 }
@@ -108,9 +109,10 @@ color: var(--hover-blue-button);
 .section3 .container {
 	padding-top: 100px;
 	height: 500px;
-	background-image: url();
-	background-position: center;
-	background-size: cover;
+	background-image: url('../images/tech.jpeg');
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-color: var(--main-bg-color-green);
 	border: solid 2px var(--outline-pink);
 }
@@ -193,9 +195,9 @@ color: var(--hover-blue-button);
 }
 
 .section4 .container {
-	padding-top: 125px;
+	padding-top: 135px;
 	height: 600px;
-	background-image: url();
+	background-image: url('../images/swag.jpeg');
 	background-position: center;
 	background-size: cover;
 	background-color: var(--outline-white);
