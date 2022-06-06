@@ -1,15 +1,17 @@
 /* CSS Vars */
 :root {
-  --main-bg-color-orange: #f7941d;
-  --main-bg-color-green: green;
-  --outline-pink: deeppink;
-  --outline-black: #000;
-  --outline-white: #fff;
-  --hover-blue-button: #4678b3;
+	--main-bg-color-orange: #f7941d;
+	--main-bg-color-green: green;
+	--outline-pink: deeppink;
+	--outline-black: #333;
+	--outline-white: #fff;
+	--hover-blue-button: #4678b3;
 }
+
 /* section 1 */
 .section1 {
 	height: 504px;
+	color: #333;
 	border: solid 2px var(--outline-black)
 }
 
@@ -41,11 +43,13 @@
 }
 
 .section1 .btn-outline-primary {
-	border: solid 1px #4678b3;
+	border: solid 1px var(--hover-blue-button)
 }
 
 .section1 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
+background-color: var(--outline-black);
+color: var(--hover-blue-button);
 }
 
 /* section 2 */
@@ -90,7 +94,8 @@
 
 .section2 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
-	color: var(--outline-black);
+background-color: var(--outline-black);
+color: var(--hover-blue-button);
 }
 
 /* section 3 */
@@ -135,7 +140,99 @@
 
 .section3 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
-	color: var(--outline-black);
+background-color: var(--outline-black);
+color: var(--hover-blue-button);
+}
+
+/* contact */
+
+.contact {
+	color: #333;
+	border: solid 2px var(--outline-black);
+}
+
+.contact .container {
+	background-color: var(--outline-white);
+	border: solid 2px var(--outline-pink);
+}
+
+.contact .row {
+	border: solid 2px red;
+}
+
+.contact .col-md-4 {
+	border: solid 2px var(--main-bg-color-green);
+	background-color: var(--outline-white);
+	padding: 50px 50px 50px 50px;
+}
+
+.contact .col-md-12 {
+	border: solid 2px var(--main-bg-color-green);
+}
+
+.contact .col-md-6 {
+	border: solid 2px blue
+}
+
+.contact .btn-outline-primary {
+	border: solid 1px var(--outline-white);
+	color: var(--outline-white);
+}
+
+.contact .btn-outline-primary:hover {
+	border: solid 1px var(--outline-black);
+background-color: var(--outline-black);
+color: var(--hover-blue-button);
+}
+
+/* section 4 */
+.section4 {
+	height: 604px;
+	color: #333;
+	border: solid 2px var(--outline-black);
+}
+
+.section4 .container {
+	padding-top: 125px;
+	height: 600px;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+	background-color: var(--outline-white);
+	border: solid 2px var(--outline-pink);
+}
+
+.section4 .row {
+	border: solid 2px red;
+}
+
+.section4 .col-md-4 {
+	border: solid 2px var(--main-bg-color-green);
+	background-color: var(--main-bg-color-green);
+	padding: 50px 50px 50px 50px;
+}
+
+.section4 .col-md-12 {
+	border: solid 2px var(--main-bg-color-green);
+}
+
+.section4 .col-md-6 {
+	border: solid 2px blue
+}
+
+.section4 .btn-outline-primary {
+	border: solid 1px var(--hover-blue-button);
+	color: var(--hover-blue-button);
+}
+
+.section4 .btn-outline-primary:hover {
+	border: solid 1px var(--outline-black);
+	background-color: var(--outline-black);
+	color: var(--hover-blue-button);
+}
+
+.section4 blockquote {
+	font-size: 45px;
 }
 
 /* Footer CSS */
