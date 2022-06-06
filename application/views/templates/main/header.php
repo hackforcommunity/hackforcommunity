@@ -16,8 +16,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-  <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
   
   <link href="css/h4c.css" rel="stylesheet" type="text/css">
   
@@ -39,19 +37,19 @@
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Home</a></li>
-          <!-- <li>
-            <a href="#">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="MVXN78LHPJGLN">
-                <!--input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"-->
-                <!--img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"-->
-
-                <!--<input type="submit" class="btn btn-link" name="" value="DONATE">
-              </form>
-            </a>
-          </li> -->
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Our Board</a></li>
+          <li><a href="#">Contact</a></li
         </ul>
+        <form class="navbar-form navbar-right " action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="MVXN78LHPJGLN">
+          <!--input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"
+          <!--img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"-->
+        
+          <input type="submit" class="btn btn-outline-primary btn-info"navbar-form navbar-left"" name="" value="DONATE">
+        </form>
       </div>
     </div>
   </div>

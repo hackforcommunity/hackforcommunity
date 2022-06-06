@@ -46,10 +46,14 @@
 	border: solid 1px var(--hover-blue-button)
 }
 
-.section1 .btn-outline-primary:hover {
+.section1.btn-outline-primary:hover 
+.section2.btn-outline-primary:hover 
+.section3.btn-outline-primary:hover 
+.contact.btn-outline-primary:hover 
+.section4.btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
-background-color: var(--outline-black);
-color: var(--hover-blue-button);
+	background-color: var(--outline-black);
+	color: var(--hover-blue-button);
 }
 
 /* section 2 */
@@ -60,7 +64,7 @@ color: var(--hover-blue-button);
 }
 
 .section2 .container {
-	padding-top: 100px;
+	padding-top: 30px;
 	height: 500px;
 	background-image: url('../images/OrangeGirls.jpeg');
 	background-position: right;
@@ -93,11 +97,11 @@ color: var(--hover-blue-button);
 	color: var(--outline-white);
 }
 
-.section2 .btn-outline-primary:hover {
+/* .section2 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
-background-color: var(--outline-black);
-color: var(--hover-blue-button);
-}
+	background-color: var(--outline-black);
+	color: var(--hover-blue-button);
+} */
 
 /* section 3 */
 .section3 {
@@ -140,11 +144,11 @@ color: var(--hover-blue-button);
 	color: var(--outline-white);
 }
 
-.section3 .btn-outline-primary:hover {
+/* .section3 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
-background-color: var(--outline-black);
-color: var(--hover-blue-button);
-}
+	background-color: var(--outline-black);
+	color: var(--hover-blue-button);
+} */
 
 /* contact */
 
@@ -181,11 +185,11 @@ color: var(--hover-blue-button);
 	color: var(--outline-white);
 }
 
-.contact .btn-outline-primary:hover {
+/* .contact .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
-background-color: var(--outline-black);
-color: var(--hover-blue-button);
-}
+	background-color: var(--outline-black);
+	color: var(--hover-blue-button);
+} */
 
 /* section 4 */
 .section4 {
@@ -210,7 +214,6 @@ color: var(--hover-blue-button);
 
 .section4 .col-md-4 {
 	border: solid 2px var(--main-bg-color-green);
-	background-color: var(--main-bg-color-green);
 	padding: 50px 50px 50px 50px;
 }
 
@@ -227,14 +230,17 @@ color: var(--hover-blue-button);
 	color: var(--hover-blue-button);
 }
 
-.section4 .btn-outline-primary:hover {
+/* .section4 .btn-outline-primary:hover {
 	border: solid 1px var(--outline-black);
 	background-color: var(--outline-black);
 	color: var(--hover-blue-button);
-}
+} */
 
 .section4 blockquote {
-	font-size: 45px;
+	font-size: 30px;
+}
+.section4 .quote-signature{
+	font-size: 20px;
 }
 
 /* Footer CSS */
