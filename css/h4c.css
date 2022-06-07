@@ -13,9 +13,9 @@
 .section2,
 .section3,
 .section4 {
-	height: 504px;
+	height: 500px;
 	color: #333;
-	border: solid 2px var(--outline-black)
+	/* border: solid 2px var(--outline-black) */
 }
 
 .section1 .container,
@@ -27,42 +27,41 @@
 	background-image: url('../images/DSC_5160.JPG');
 	background-position: center;
 	background-size: cover;
-	border: solid 2px var(--outline-pink)
+	/* border: solid 2px var(--outline-pink) */
 }
 
-.section1 .row,
+/* .section1 .row,
 .section2 .row,
 .section3 .row,
 .contact .row,
 .section4 .row {
 	border: solid 2px red;
-}
+} */
 
 .section1 .col-md-4,
 .section2 .col-md-4,
 .section3 .col-md-4,
-.contact .col-md-4,
-.section4 .col-md-4 {
-	border: solid 2px var(--main-bg-color-green);
+.contact .col-md-4 {
+	/* border: solid 2px var(--main-bg-color-green); */
 	background-color: white;
 	padding: 50px 50px 50px 50px;
 }
 
-.section1 .col-md-12,
+/* .section1 .col-md-12,
 .section2 .col-md-12,
 .section3 .col-md-12,
 .contact .col-md-12,
 .section4 .col-md-12 {
 	border: solid 2px var(--main-bg-color-green);
-}
+} */
 
-.section1 .col-md-6,
+/* .section1 .col-md-6,
 .section2 .col-md-6,
 .section3 .col-md-6,
 .contact .col-md-6,
 .section4 .col-md-6 {
 	border: solid 2px blue
-}
+} */
 
 .section1 .btn-outline-primary,
 .section2 .btn-outline-primary,
@@ -132,7 +131,6 @@
 
 .contact {
 	color: #333;
-	border: solid 2px var(--outline-black);
 }
 
 .contact .container {
@@ -151,7 +149,7 @@
 
 /* section 4 */
 .section4 {
-	height: 604px;
+	height: 600px;
 }
 
 .section4 .container {
@@ -179,7 +177,7 @@
 /* Footer CSS */
 footer {
 	color: #FFF;
-	border: solid 2px var(--outline-pink);
+	/* border: solid 2px var(--outline-pink); */
 	background-color: #7363ac;
 }
 
@@ -191,10 +189,10 @@ footer a:hover {
 	color: var(--outline-black);
 }
 
-footer .col-sm-6 {
+/* footer .col-sm-6 {
 	border: solid 1px red;
 }
 
 footer .row {
 	border: solid 1px red;
-}
+} */
