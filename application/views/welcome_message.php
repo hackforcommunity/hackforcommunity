@@ -27,7 +27,7 @@
       <div class="col-md-4">
         <h1>HACKATHON EVENTS</h1>
         <p>A hackathon is a technology based social event that brings people together to solve problems or improve upon previous solutions. We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all ages and backgrounds.</p><br />
-        <a href="#" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
+        <a href="programs" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
       </div>
       <div class="col-md-6">
       </div>
@@ -45,7 +45,7 @@
         <h1>TECHNOLOGY EDUCATION</h1>
         <p>We also provide Technology education to support individuals, small businesses, churches, and nonprofits.</p>
         <br />
-        <a href="#" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
+        <a href="programs" class="btn btn-block btn-outline-primary pull-right">LEARN MORE</a>
       </div>
       <div class="col-md-1">
 
@@ -74,7 +74,7 @@
           <br /><span class="quote-signature">– Annie Jean-Baptiste, Head of Product Inclusion at Google</span>
         </blockquote><br />
         <div class="col-md-6">
-          <a href="#" class="btn btn-block btn-outline-primary pull-right ">MEET OUR BOARD</a>
+          <a href="ourboard" class="btn btn-block btn-outline-primary pull-right ">MEET OUR BOARD</a>
         </div>
       </div>
       <div class="col-md-4">
