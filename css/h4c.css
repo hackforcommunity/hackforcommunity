@@ -125,7 +125,10 @@
 	border: solid 1px var(--outline-white);
 	color: var(--outline-white);
 }
-
+/* nav bar */
+.navbar{
+	margin-bottom: 0px;
+}
 
 /* contact */
 

@@ -13,7 +13,7 @@
       <div class="col-md-4"">
         <h1>HACK FOR COMMUNITY</h1>
         <p>If we can empower them with technology they can use it positively to change their communities.</p><br />
-        <a href="#" class="btn btn-block btn-outline-primary pull-right">Our Mission</a>
+        <a href="mission" class="btn btn-block btn-outline-primary pull-right">Our Mission</a>
       </div>
     </div>
   </div>

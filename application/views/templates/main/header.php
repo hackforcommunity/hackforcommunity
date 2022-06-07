@@ -36,8 +36,8 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Our Mission</a></li>
+          <li <?php if($where === "home"){echo 'class="active"';}?>><a href=".">Home</a></li>
+          <li <?php if($where === "mission"){echo 'class="active"';}?>><a href="mission">Our Mission</a></li>
           <li><a href="#">Programs</a></li>
           <li><a href="#">Our Board</a></li>
           <li><a href="#">Contact</a></li
