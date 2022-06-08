@@ -6,13 +6,16 @@
 	--outline-black: #333;
 	--outline-white: #fff;
 	--hover-blue-button: #4678b3;
+	--purple: #7363ac;
 }
 
 /* section 1 */
 .section1,
 .section2,
 .section3,
-.section4 {
+.section4,
+.mission1,
+.mission2 {
 	height: 500px;
 	color: #333;
 	/* border: solid 2px var(--outline-black) */
@@ -21,7 +24,8 @@
 .section1 .container,
 .section2 .container,
 .section3 .container,
-.section4 .container {
+.section4 .container,
+.mission2 .container {
 	padding-top: 100px;
 	height: 500px;
 	background-image: url('../images/DSC_5160.JPG');
@@ -29,14 +33,6 @@
 	background-size: cover;
 	/* border: solid 2px var(--outline-pink) */
 }
-
-/* .section1 .row,
-.section2 .row,
-.section3 .row,
-.contact .row,
-.section4 .row {
-	border: solid 2px red;
-} */
 
 .section1 .col-md-4,
 .section2 .col-md-4,
@@ -46,22 +42,6 @@
 	background-color: white;
 	padding: 50px 50px 50px 50px;
 }
-
-/* .section1 .col-md-12,
-.section2 .col-md-12,
-.section3 .col-md-12,
-.contact .col-md-12,
-.section4 .col-md-12 {
-	border: solid 2px var(--main-bg-color-green);
-} */
-
-/* .section1 .col-md-6,
-.section2 .col-md-6,
-.section3 .col-md-6,
-.contact .col-md-6,
-.section4 .col-md-6 {
-	border: solid 2px blue
-} */
 
 .section1 .btn-outline-primary,
 .section2 .btn-outline-primary,
@@ -177,11 +157,30 @@
 	font-size: 20px;
 }
 
+/* Our Mission */
+.mission1 .container{
+	background-color: var(--purple);
+	height: 500px;
+	color: var(--outline-white);
+}
+
+.mission2 .container{
+	background-image: url('../images/image1.png');
+
+}
+
+.mission1 h1,
+.mission1 h2{
+	text-align: center;
+	font-size: 24px;
+	line-height: 40px;
+}
+
 /* Footer CSS */
 footer {
 	color: #FFF;
 	/* border: solid 2px var(--outline-pink); */
-	background-color: #7363ac;
+	background-color: var(--purple);
 }
 
 footer a {
@@ -191,11 +190,3 @@ footer a {
 footer a:hover {
 	color: var(--outline-black);
 }
-
-/* footer .col-sm-6 {
-	border: solid 1px red;
-}
-
-footer .row {
-	border: solid 1px red;
-} */
