@@ -22,7 +22,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-6"">
-	  	<img src="" />
+	  	<img src="../images/CodingHackLogo.png" class="col-md-4" />
 	  </div>
 	  <div class="col-md-6"">
 	  	<h2></h2>
@@ -35,7 +35,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-6"">
-	  	<img src="" />
+	  	<img src="../images/PitchHackLogo.png" class="col-md-4"/>
 	  </div>
 	  <div class="col-md-6"">
 	  	<h2></h2>
@@ -49,7 +49,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-6"">
-	  	<img src="" />
+	  	<img src="../images/TechEdLogo.png"  class="col-md-4"/>
 	  </div>
 	  <div class="col-md-6"">
 	  	<h2></h2>

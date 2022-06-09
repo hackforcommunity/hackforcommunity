@@ -53,7 +53,7 @@
           </li>
           <li <?php if($where === "ourboard"){echo 'class="active"';}?>>
             <a href="ourboard">
-              Our Board
+              Our Founders
             </a>
           </li>
           <form class="navbar-form navbar-right" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
