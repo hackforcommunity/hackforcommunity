@@ -2,7 +2,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-12"">
-	  	<img src="../images/H4CLongLogo.png">
+	  	<img src="../images/H4CLongLogo.png" class="img-responsive">
 	  </div>
 	</div>
   </div>

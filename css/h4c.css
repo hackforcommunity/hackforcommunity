@@ -20,7 +20,9 @@
 .programs2,
 .programs3,
 .programs4,
-.programs5 {
+.programs5,
+.ourboard,
+.ourboard1 {
 	height: 500px;
 	color: #333;
 }
@@ -34,7 +36,9 @@
 .programs2 .container,
 .programs3 .container,
 .programs4 .container,
-.programs5 .container {
+.programs5 .container,
+.ourboard .container,
+.ourboard1 .container {
 	padding-top: 100px;
 	height: 500px;
 	background-image: url('../images/DSC_5160.JPG');
@@ -234,6 +238,21 @@
 	color: var(--outline-black);
 }
 
+/* ourboard */
+.ourboard,
+.ourboard1{
+	color: var(--outline-white);
+	height: 600px;
+}
+.ourboard .container{
+	background-image: none;
+	
+	background-color: var(--purple);
+}
+.ourboard1 .container{
+	background-image: none;
+	background-color: var(--main-bg-color-green);
+}
 
 /* Footer CSS */
 footer {
