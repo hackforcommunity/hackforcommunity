@@ -31,6 +31,9 @@
 .section4 .container,
 .mission2 .container,
 .programs .container,
+.programs2 .container,
+.programs3 .container,
+.programs4 .container,
 .programs5 .container {
 	padding-top: 100px;
 	height: 500px;
@@ -182,23 +185,55 @@
 
 /* Programs */
 .programs .container {
-	background-image: url('../images/image1.png');
+	background-image: url('../images/image3.png');
 	color: var(--outline-white);
 	text-align: center;
 }
+
 .programs .container h1{
 	font-size: 155px;
 	font-variant-caps: small-caps;
 	margin-top: 200px;
 }
+.programs1 .container h1{
+	text-align: center;
+}
+.programs1 .container a{
+	font-size: 36px;
+	padding: 0px;
+}
 
 .programs2 .container{
+	background-image: none;
+	text-align: center;
+	color: var(--outline-white);
 	background-color: var(--main-bg-color-orange);
 }
 
+.programs2 .container p,
+.programs3 .container p,
+.programs4 .container p{
+	font-size: 22px;
+}
+
+.programs3 .container{
+	background-image: none;
+	text-align: center;
+	background-color: var(--outline-white);
+}
+
 .programs4 .container{
+	background-image: none;
+	text-align: center;
 	background-color: var(--main-bg-color-green);
 }
+
+.programs5 .container {
+	background-image: url('../images/image2.png');
+	text-align: center;
+	color: var(--outline-black);
+}
+
 
 /* Footer CSS */
 footer {
