@@ -206,10 +206,12 @@
 	font-size: 36px;
 	padding: 0px;
 }
-
 .programs2 .container{
-	background-image: none;
+	background-image: url(../images/PitchHackLogo.png);
 	text-align: center;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
 	color: var(--outline-white);
 	background-color: var(--main-bg-color-orange);
 }
@@ -223,14 +225,20 @@
 }
 
 .programs3 .container{
-	background-image: none;
-	text-align: center;
+	background-image: url(../images/CodingHackLogo.png);
+text-align: center;
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
 	background-color: var(--outline-white);
 }
 
 .programs4 .container{
-	background-image: none;
-	text-align: center;
+	background-image: url(../images/TechEdLogo.png);
+text-align: center;
+background-position: left;
+background-repeat: no-repeat;
+background-size: contain;
 	background-color: var(--main-bg-color-green);
 }
 

@@ -22,7 +22,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-4"">
-		  <img src="../images/PitchHackLogo.png" class="img-responsive"/>
+		  <!-- <img src="../images/PitchHackLogo.png" class="img-responsive"/> -->
 	  </div>
 	  <div class="col-md-8"">
 	  	<h2>Pitch Hackathon</h2>
@@ -39,7 +39,7 @@
 			<p>A coding hackathon is an in person event where students work with a team to come up with a unique idea or improve upon a specified idea in order to solve a problem. Then they design and code the product to present to the group and a winner is awarded.</p>
 	  </div>
 	  <div class="col-md-4"">
-		  <img src="../images/CodingHackLogo.png" class="img-responsive"/>
+		  <!-- <img src="../images/CodingHackLogo.png" class="img-responsive"/> -->
 	 </div>
 	</div>
   </div>
@@ -49,7 +49,7 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-4"">
-	  	<img src="../images/TechEdLogo.png"  class="img-responsive"/>
+	  	<!-- <img src="../images/TechEdLogo.png"  class="img-responsive"/> -->
 	  </div>
 	  <div class="col-md-8">
 	  	<h2>Tech Education</h2>
