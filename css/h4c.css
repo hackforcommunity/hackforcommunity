@@ -216,7 +216,9 @@
 
 .programs2 .container p,
 .programs3 .container p,
-.programs4 .container p{
+.programs4 .container p,
+.ourboard .container p,
+.ourboard1 .container p{
 	font-size: 22px;
 }
 
@@ -242,16 +244,44 @@
 .ourboard,
 .ourboard1{
 	color: var(--outline-white);
-	height: 600px;
 }
 .ourboard .container{
-	background-image: none;
-	
+	padding-top: 5px;
+	background-image: url(../images/image4.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
 	background-color: var(--purple);
 }
 .ourboard1 .container{
-	background-image: none;
+	padding-top: 0px;
+	background-image: url(../images/image5.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
 	background-color: var(--main-bg-color-green);
+}
+
+.onboard .container .col-md-4{
+	padding-left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.ourboard .container{
+		background-image: none;
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: var(--purple);
+	}
+	.ourboard1 .container{
+		background-image: none;
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: var(--main-bg-color-green);
+	}
 }
 
 /* Footer CSS */
