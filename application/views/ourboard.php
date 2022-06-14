@@ -1,8 +1,8 @@
 <div class="section mission">
   <div class="container">
 	<div class="row">
-	  <div class="col-md-12">
-		  <img src="../images/H4CLongLogo.png" class="img-responsive">
+	  <div class="col-md-12"">
+		  <img src="../images/H4CLongLogo.png" class="img-responsive col-md-12">
 	  </div>
 	</div>
   </div>
@@ -11,9 +11,9 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-3">
-		 <!-- <img src="../images/image4.png" class="img-responsive visible-xs" /> -->
-	  </div> 
-	  <div class="col-md-9">
+		  <!-- <img src="../images/image4.png" class="img-responsive pull-left" /> -->
+	  </div>
+	  <div class="col-md-8">
 			<h1>Our Founders</h1>
 			<p>Hack for Community was founded in 2017 by Richard and Mari Robinson. Coming from engineering and education backgrounds, respectfully, they both realized the need for bringing technology education, experiences, and knowledge of careers in tech to underserved communities. They have three children that they love coding and designing with. Together they also own and operate WEBDMG LLC Technology Company.</p>
 		</div>
