@@ -12,7 +12,8 @@
   <div class="container">
 	<div class="row">
 	  <div class="col-md-12"">
-	  	<h1>To sign up for the current Pitch Hackathon, <a href="#" class="btn btn-link">click here!</a></h1>
+	  	<h1>To sign up for the current Pitch Hackathon, <a href="https://forms.gle/7Ajn9uvjAWKoebVn7" target="blank" class="btn btn-link">click here!</a>
+	  </h1>
 	  </div>
 	</div>
   </div>
