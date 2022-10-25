@@ -8,7 +8,7 @@
   </div>
 </div>
 
-<div class="section programs1">
+<!-- <div class="section programs1">
   <div class="container">
 	<div class="row">
 	  <div class="col-md-12"">
@@ -17,7 +17,7 @@
 	  </div>
 	</div>
   </div>
-</div>
+</div> -->
 
 <div class="section programs2">
   <div class="container">
