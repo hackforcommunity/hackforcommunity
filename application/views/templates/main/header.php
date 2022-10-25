@@ -6,6 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+      <!-- Twitter Meta -->
+  <meta name="twitter:site" content="http://HackForCommunity">
+  <meta name="twitter:creator" content="@Hac4Community">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hack For Community">
+  <meta name="twitter:description" content="A hackathon is a technology based social event that brings people together to solve problems or improve upon previous solutions. We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all ages and backgrounds.">
+  <meta name="twitter:image" content="http://hackforcommunity.org/images/bg-default.png">
+  
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="http://HackForCommunity">
+  <meta property="og:title" content="Hack For Community">
+  <meta property="og:description" content="A hackathon is a technology based social event that brings people together to solve problems or improve upon previous solutions. We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all ages and backgrounds.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://hackforcommunity.org/img/bg-default.png">
+  <meta property="og:image:secure_url" content="http://hackforcommunity.org/images/bg-default.png">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+
+  <meta name="keywords" content="web, hack-a-thons, mobile apps, iOS, h4c, Hack For Community, blacktech, blackowned">
+  <meta name="author" content="Hack For Community">
+  
+  <meta name="description" content="A hackathon is a technology based social event that brings people together to solve problems or improve upon previous solutions. We have a couple types of Hackathon events that we lead and facilitate with organizations and groups of students of all ages and backgrounds.">
+  
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 

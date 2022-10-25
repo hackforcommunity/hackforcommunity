@@ -290,6 +290,19 @@ background-size: contain;
 		background-size: contain;
 		background-color: var(--main-bg-color-green);
 	}
+	
+	.section4 .container {
+		padding-top: 5px;
+		height: 600px;
+		background-image: url('../images/swag.jpeg');
+		background-position: center;
+		background-size: cover;
+		background-color: var(--outline-white);
+	}
+	
+	.section4 blockquote {
+		font-size: 25px;
+	}
 }
 
 /* Footer CSS */
