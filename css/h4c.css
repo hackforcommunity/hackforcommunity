@@ -1,0 +1,321 @@
+/* CSS Vars */
+:root {
+	--main-bg-color-orange: #f7941d;
+	--main-bg-color-green: #abd373;
+	--outline-pink: deeppink;
+	--outline-black: #333;
+	--outline-white: #fff;
+	--hover-blue-button: #4678b3;
+	--purple: #7363ac;
+}
+
+/* section 1 */
+.section1,
+.section2,
+.section3,
+.section4,
+.mission1,
+.mission2,
+.programs,
+.programs2,
+.programs3,
+.programs4,
+.programs5,
+.ourboard,
+.ourboard1 {
+	height: 500px;
+	color: #333;
+}
+
+.section1 .container,
+.section2 .container,
+.section3 .container,
+.section4 .container,
+.mission2 .container,
+.programs .container,
+.programs2 .container,
+.programs3 .container,
+.programs4 .container,
+.programs5 .container,
+.ourboard .container,
+.ourboard1 .container {
+	padding-top: 100px;
+	height: 500px;
+	background-image: url('../images/DSC_5160.JPG');
+	background-position: center;
+	background-size: cover;
+}
+
+.section1 .col-md-4,
+.section2 .col-md-4,
+.section3 .col-md-4,
+.contact .col-md-4 {
+	background-color: var(--outline-white);
+	padding: 50px 50px 50px 50px;
+}
+
+.section1 .btn-outline-primary,
+.section2 .btn-outline-primary,
+.section3 .btn-outline-primary,
+.contact .btn-outline-primary,
+.section4 .btn-outline-primary {
+	border: solid 1px var(--hover-blue-button)
+}
+
+.section1 .btn-outline-primary:hover,
+.section2 .btn-outline-primary:hover,
+.section3 .btn-outline-primary:hover,
+.contact .btn-outline-primary:hover,
+.section4 .btn-outline-primary:hover {
+	border: solid 1px var(--outline-black);
+	background-color: var(--outline-black);
+	color: var(--hover-blue-button);
+}
+
+/* section 2 */
+.section2 {
+	color: var(--outline-white);
+}
+
+.section2 .container {
+	padding-top: 30px;
+	background-image: url('../images/OrangeGirls.jpeg');
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: var(--main-bg-color-orange);
+}
+
+.section2 .col-md-4 {
+	background-color: var(--main-bg-color-orange);
+}
+
+.section2 .btn-outline-primary {
+	border: solid 1px var(--outline-white);
+	color: var(--outline-white);
+}
+
+/* section 3 */
+.section3 {
+	color: #FFF;
+}
+
+.section3 .container {
+	background-image: url('../images/tech.jpeg');
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: var(--main-bg-color-green);
+}
+
+.section3 .col-md-4 {
+	background-color: var(--main-bg-color-green);
+}
+
+.section3 .btn-outline-primary {
+	border: solid 1px var(--outline-white);
+	color: var(--outline-white);
+}
+/* nav bar */
+.navbar{
+	margin-bottom: 0px;
+}
+
+/* contact */
+
+.contact {
+	color: #333;
+}
+
+.contact .container {
+	background-color: var(--outline-white);
+}
+
+.contact .col-md-4 {
+	background-color: var(--outline-white);
+}
+
+.contact .btn-outline-primary {
+	border: solid 1px var(--outline-white);
+	color: var(--outline-white);
+}
+
+
+/* section 4 */
+.section4 {
+	height: 600px;
+}
+
+.section4 .container {
+	padding-top: 135px;
+	height: 600px;
+	background-image: url('../images/swag.jpeg');
+	background-position: center;
+	background-size: cover;
+	background-color: var(--outline-white);
+}
+
+.section4 .btn-outline-primary {
+	border: solid 1px var(--hover-blue-button);
+	color: var(--hover-blue-button);
+}
+
+.section4 blockquote {
+	font-size: 30px;
+}
+
+.section4 .quote-signature {
+	font-size: 20px;
+}
+
+/* Our Mission */
+.mission1 .container{
+	background-color: var(--purple);
+	height: 500px;
+	color: var(--outline-white);
+}
+
+.mission2 .container{
+	background-image: url('../images/image1.png');
+
+}
+
+.mission1 h1,
+.mission1 h2{
+	text-align: center;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+/* Programs */
+.programs .container {
+	background-image: url('../images/image3.png');
+	color: var(--outline-white);
+	text-align: center;
+}
+
+.programs .container h1{
+	font-size: 72px;
+	font-variant-caps: small-caps;
+	margin-top: 200px;
+}
+.programs1 .container h1{
+	text-align: center;
+}
+.programs1 .container a{
+	font-size: 36px;
+	padding: 0px;
+}
+.programs2 .container{
+	background-image: url(../images/PitchHackLogo.png);
+	text-align: center;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: var(--outline-white);
+	background-color: var(--main-bg-color-orange);
+}
+
+.programs2 .container p,
+.programs3 .container p,
+.programs4 .container p,
+.ourboard .container p,
+.ourboard1 .container p{
+	font-size: 22px;
+}
+
+.programs3 .container{
+	background-image: url(../images/CodingHackLogo.png);
+text-align: center;
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+	background-color: var(--outline-white);
+}
+
+.programs4 .container{
+	background-image: url(../images/TechEdLogo.png);
+text-align: center;
+background-position: left;
+background-repeat: no-repeat;
+background-size: contain;
+	background-color: var(--main-bg-color-green);
+}
+
+.programs5 .container {
+	background-image: url('../images/image2.png');
+	text-align: center;
+	color: var(--outline-black);
+}
+
+/* ourboard */
+.ourboard,
+.ourboard1{
+	color: var(--outline-white);
+}
+.ourboard .container{
+	padding-top: 5px;
+	background-image: url(../images/image4.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: var(--purple);
+}
+.ourboard1 .container{
+	padding-top: 0px;
+	background-image: url(../images/image5.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: var(--main-bg-color-green);
+}
+
+.onboard .container .col-md-4{
+	padding-left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.ourboard .container{
+		background-image: none;
+		background-position: left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: var(--purple);
+	}
+	.ourboard1 .container{
+		background-image: none;
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: var(--main-bg-color-green);
+	}
+	
+	.section4 .container {
+		padding-top: 5px;
+		height: 600px;
+		background-image: url('../images/swag.jpeg');
+		background-position: center;
+		background-size: cover;
+		background-color: var(--outline-white);
+	}
+	
+	.section4 blockquote {
+		font-size: 25px;
+	}
+}
+
+/* Footer CSS */
+footer {
+	color: #FFF;
+	/* border: solid 2px var(--outline-pink); */
+	background-color: var(--purple);
+}
+
+footer a {
+	color: #FFF;
+}
+
+footer a:hover {
+	color: var(--outline-black);
+}

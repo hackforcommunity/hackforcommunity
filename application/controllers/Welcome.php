@@ -21,9 +21,10 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$data['main_content'] = 'welcome_message';
+        $data['where'] = 'home';
 		$this->load->view('templates/main/main_template',$data);
 	}
-
+    
 	public function contact(){
 		$this->load->library('email');
 
